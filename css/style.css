@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+a{ text-transform:uppercase}
+/*头部部分*/
+.logobox{width: 100%;background-color: #d8b765;min-width: 1200px;padding-bottom: 78px;}
+.listnav{background:url(../images/nav_03.png) center center no-repeat;height: 69px;width:100%;z-index: 100;top: 130px;min-width: 1200px;}
+.listnav a{ color:#fff;}
+.listnav ul{width: 1026px;margin: 0 auto;}
+.listnav .nLi{ float:left;  position:relative; display:inline;margin-top: 13px}
+.listnav .nLi h3{float: left;line-height:39px;width: 114px;text-align: center;font-size: 18px;}
+.listnav .nLi h3 a{display:block; padding:0 20px; font-size:14px; font-weight:bold;  }
+.listnav .sub{display:none; width:600px; position:absolute; background:#fff;line-height:26px; padding:5px 20px;z-index: 5;border-bottom: 3px solid #008146;border-right: 3px solid #008146;border-left:3px solid #008146;}
+.listnav .dute1{left:-60px; top:39px;}
+.listnav .dute2{left:-500px; top:39px;}
+.listnav .sub li{float: left;font-size: 12px;}
+.listnav .sub li a{color: #555555;}
+.listnav .sub li a:hover{color: #006135;}
+.listnav .navshow{background-color:#008146;}
+.listnav .nLi:hover{background-color:#008146;}
+/*大图滚动*/
+.big{width:100%;height:469px;overflow:hidden;min-width:1200px;position:relative;}
+.big_out{width:1920px;height:469px;position:absolute;left:50%;margin-left:-963px;}
+.big_inner{width:1920px;height:469px;overflow:hidden;}
+.big_con{width:20000px;height:469px;overflow:hidden;}
+.big_con img{float:left;width:1920px;height:470px;}
+.big_list{overflow:hidden;position:absolute;bottom:0px;right:380px}
+.big_list li{width:24px;height:24px;line-height:24px;text-align:center;background:#006135;font-size:24px;color:#fff;margin:0 5px;float:left;cursor:pointer;border-radius:5px;font-style:italic;padding-right:6px;}
+.big_list .xiabiao{background-color:#f8c300;padding:0 16px 0 10px;}
+/*主页内容部分*/
+.index_con{background:url(../images/index_bg.jpg) center no-repeat;width:100%;height: 4083px;}
+/*学校简介*/
+.topcon{padding-top: 24px;}
+.lingxing{background:url(../images/lingxing_03.png) 20px 39px no-repeat;width:616px;height: 660px;}
+.a_black{background:url(../images/a_black_03.png) 0 0 no-repeat;width: 182px;height: 182px;opacity:0.5; filter:alpha(opacity=50);left:318px;top:239px;padding: 50px;color: #000}
+.a_blackcon{left:367px;top: 303px;color: #fff;}
+.bg_wu{margin-left: 8px;font-size: 16px;font-weight: bold;margin-bottom: 26px;}
+.bg_yullow{background-color: #f8c300;border-radius: 10px;padding: 2px 10px;font-size: 12px;}
+.brief_wenzi{width: 420px;margin-right: 26px;line-height: 20px;color: #81511c;text-indent: 2em;padding-top: 160px;}
+/*学校动态*/
+.news_bt{margin-right:93px;margin-top: 5px;padding-bottom: 28px;}
+.news_con{background:url(../images/newscon_bg_03.png) 0 0 no-repeat;width: 1076px;height: 354px;clear: both;}
+.news_tab{ width:1076px;margin:0 auto;}
+.news_tab .news_tabbd>span{display: none;}
+.news_tab .news_tabbd .newstab_show{display: block;}
+.news_tab .news_tabhd{height:45px; line-height:30px;position:relative;margin:0px auto;width: 250px;padding-top: 8px;}
+.news_tab .news_tabhd li{ float:left;cursor:pointer;font-family: 宋体;font-size: 14px;width: 115px;text-align: center;line-height: 37px;margin-right: 10px;background:url(../images/wind_tit_03.png) 0 0 no-repeat;width: 115px;height: 37px;}
+.news_tabhd li{color:#808080; }
+.news_tabhd li a:hover{color:#231815; }
+.news_tab .news_tabhd .news_tabon{background:url(../images/tabbg_03.png) 0 0 no-repeat;width:115px;height: 37px;color:#231815; }
+.news_tab .news_tabbd .newstab_right{ height:24px; line-height:24px;margin-top: 25px;width: 505px;line-height: 28px }
+.news_tab .news_tabbd .newstab_right a{background:url(../images/fang_03.png) 0 8px no-repeat; width: 505px;height: 20px;padding-left: 20px;color: #555555;}
+.news_tab .news_tabbd .newstab_right .date{ float:right; color:#808080;}
+.news_tabcon{width: 1073px;height: 356px;}
+/*tab下图片滚动*/
+.news_out1,.news_out2{width: 348px;height:231px;position: relative;margin-left: 40px;margin-top: 25px;margin-right: 80px;}
+.news_inner1,.news_inner2{width: 348px;height:231px;overflow:hidden;}
+.zhezhao1{position: absolute;background:url(../images/zhezhao.png) 0px 0px no-repeat;width:360px;height: 248px;left: -7px;top: -9px;z-index: 20; }
+.news_con1,.news_con2{width:3000px;height:231px;overflow: hidden;}
+.news_con1 img,.news_con2 img{width: 348px;height: 231px;}
+.news_con1 a,.news_con2 a{float: left;width: 348px;height: 231px;}
+.news_list1,.news_list2{width: 330px;position:absolute;bottom: 20px;left: 260px;z-index: 100;}
+.news_list1 li,.news_list2 li{float: left;margin-right: 10px;cursor:pointer;background:url(../images/yuan_05.png) 0 0 no-repeat;width: 9px;height: 9px;}
+.news_list1 .on1,.news_list2 .on1{background:url(../images/yuan_03.png) 0 0 no-repeat;width: 9px;height: 9px;}
+.imgfoot{color: #fff;bottom: 0px;font-family:;left: 0px;opacity:0.5; filter:alpha(opacity=50);height: 40px;background-color: #000;width: 348px;z-index: 1;}
+.scrollwenzi{left:20px;bottom: 5px;color: #fff;z-index: 30;}
+/*教学研讨部分*/
+.pen{background:url(../images/pen_03.png) 0 0 no-repeat;width:63px;height: 92px;right: 80px;bottom: 50px; }
+.teaching_bt{display: inline-block;margin-left: 229px;margin-top: 93px}
+.teachingtab_tit{padding-top: 63px;margin-left: 20px;}
+.teachingtab_tit a{width: 86px;line-height: 50px;font-size: 14px;font-family: 宋体;text-align:center;color: #555555;display:block;background:url(../images/b.png) 0px 5px no-repeat;width: 88px;height: 50px;}
+.teachingtab_con .show{display: block;}
+.teachingtab_tit .select{background:url(../images/teachingtab_titbg_03.png) 0px 5px no-repeat;width: 88px;height: 50px;color: #fff;}
+.teachingtab_con1{width:846px;height: 248px;margin-top:35px;margin-left:30px;display: none;}
+.teachingtab_con1 a{color:#231815; }
+/*教学研讨tab内容部分*/
+.teachingtab_con{background:url(../images/aaa_03.png) 0px 0px no-repeat;width:945px;height: 335px;margin-top: 33px;}
+.baiye_con1 li,.baiye_con2 li,.baiye_con3 li{float: left;margin-right: 3px;}
+#teachingtab h1{margin-left: 70px;font-size: 25px;padding-bottom: 15px;}
+.teainglist1,.teainglist2,.teainglist3,.teainglist4,.teainglist5{padding-top:55px;line-height: 24px;font-family: 微软雅黑;cursor: pointer;}
+.teainglist1 p,.teainglist2 p,.teainglist3 p,.teainglist4 p,.teainglist5 p{font-size: 23px;color: #006135;width:24px;margin: 0 auto;}
+.teainglist1_con,.teainglist2_con,.teainglist3_con,.teainglist4_con,.teainglist5_con{padding-top:10px;overflow: hidden;}
+.teainglist1_con p,.teainglist2_con p,.teainglist3_con p,.teainglist4_con p,.teainglist5_con p{font-size: 11px;color: #808080;font-family: 宋体;line-height: 26px;margin-left: 70px;width: 484px;height: 131px;}
+.teainglist1{background:url(../images/teaching_alis_03.png) 0 0 no-repeat;width: 55px;height: 248px;}
+.teainglist2{background:url(../images/teaching_alis_05.png) 0 0 no-repeat;width: 55px;height: 248px;}
+.teainglist3{background:url(../images/teaching_alis_07.png) 0 0 no-repeat;width: 55px;height: 248px;}
+.teainglist4{background:url(../images/teaching_alis_09.png) 0 0 no-repeat;width: 55px;height: 248px;}
+.teainglist5{background:url(../images/teaching_alis_11.png) 0 0 no-repeat;width: 55px;height: 248px;}
+.teainglist1_con{background:url(../images/teaching_blis_03.png) 0 0 no-repeat;width: 595px;height: 248px;}
+.teainglist2_con{background:url(../images/teaching_blis_05.png) 0 0 no-repeat;width: 0px;height: 248px;}
+.teainglist3_con{background:url(../images/teaching_blis_07.png) 0 0 no-repeat;width: 0px;height: 248px;}
+.teainglist4_con{background:url(../images/teaching_blis_09.png) 0 0 no-repeat;width: 0px;height: 248px;}
+.teainglist5_con{background:url(../images/teaching_blis_11.png) 0 0 no-repeat;width: 0px;height: 248px;}
+/*教师风采*/
+.mien{padding-top: 69px;}
+.mine_bt{margin-right: 248px;padding-bottom: 33px;}
+/*教师风采tab部分*/
+.mientab_tit{padding-top: 30px;}
+.mientab_tit a{width: 86px;line-height:40px;font-size: 14px;font-family: 宋体;text-align:center;color: #555555;display:block;padding-bottom: 10px;background:url(../images/e_06.png) -4px 0px no-repeat;}
+#mientab .select{background:url(../images/green_right_03.png) -4px 0px no-repeat;width: 88px;height:40px;color: #fff;}
+.mientab_1{width:784px;height: 248px;margin-top:35px;display: none;}
+#mientab{background:url(../images/mine_conbg_03.png) 20px 0px no-repeat;width:923px;height: 337px;padding-left: 126px}
+.mientab_con .show{display: block;}
+/*教师风采tab内容*/
+.more{width: 804px;text-align: right;padding-bottom: 20px}
+.more a{margin-right: 90px;font-size: 14px;color:#683f11;}
+.sr_mienout{width: 756px;height:220px;overflow: hidden;}
+.sr_mieninner{width: 756px;height:220px;overflow:hidden;}
+.sr_miencon{height:200px;width:5000px;}
+.zhezhao2{padding: 5px;}
+.zhezhapimg2{background:url(../images/zhezhao2.png) 0 0 no-repeat;width: 252px;height: 192px;z-index: 20;left:-1px;top: -1px; }
+.btn1{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;left: -50px;top: 90px;cursor: pointer;}
+.btn2{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;right: -25px;top: 90px;cursor: pointer;}
+.btn1:hover,.btn2:hover,.wind_btn1:hover,.wind_btn2:hover,.young_btn1:hover,.young_btn2:hover{background:url(../images/btn_bg_05.png) 0 0 no-repeat;}
+.sr_miengun{width: 756px;}
+.miensr_right{width: 475px;}
+.mienconleft{margin-right: 30px;}
+.miensr_right_bt{font-size:20px;font-family: 微软雅黑;padding-bottom:15px;padding-top: 5px;display: block;color: #333333;}
+.miensr_right_con{font-size: 14px;font-family: 宋体;line-height: 24px;color: #81511c;}
+.miensr_right_con a{color:#ca1e1c;}
+/*教育之窗*/
+.wind{padding-top: 69px;}
+.wind_bt{width: 221px;margin-left: 115px}
+#windtab{width:1072px;margin-top: 40px;margin-left: 10px;}
+.windtab_tit{padding-top: 27px;margin-left: 20px;}
+.windtab_tit a{width: 86px;line-height: 37px;font-size: 14px;font-family: 宋体;text-align:center;color: #555555;display:block;background:url(../images/wind_tit_03.png) 0 0 no-repeat;width: 115px;height: 37px;}
+.windtab_t1{margin-left: 55px;}
+.windtab_t2{margin-left: 35px;margin-top: 13px;}
+.windtab_t3{margin-top: 13px;}
+.windtab_inner{margin-top: 30px;margin-left: 4px;width:846px;}
+.windtab_inner .show{display: block;}
+.windtab_tit .select{background:url(../images/wind_tit_06.png) 0px 0px no-repeat;width:115px;height: 37px;color: #fff;line-height: 37px;}
+.windtab_con{width:846px;height: 258px;display: none}
+.windscr_con img,.youngscr_gun img{border-radius: 100%;width: 195px;height: 195px;}
+.windtab_con a{color: #fff;}
+.windscr_out{width:869px;height: 258px;}
+.windscr_inner{width:778px;height: 240px;margin-left: 39px;margin-top: 5px;overflow:hidden;}
+.windscr_con{width: 1554px;}
+.windscr_img{width:256px;text-align: center;}
+.windscr_gun{width: 783px;position: absolute;margin-left: 35px;display: none;}
+.windscr_gun img{padding-right: 26px;padding-top: 10px;margin-bottom: 10px;}
+.w_z1{background:url(../images/yuan_xx.png) 9px 4px no-repeat;width: 204px;height: 200px;padding:10px;}
+.wind_btn1{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;left:25px;top: 70px;cursor: pointer;}
+.wind_btn2{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;right:-4px;top: 70px;cursor: pointer;}
+/*诚雅少年*/
+.young{padding-top: 130px;}
+.young_bt{width: 221px;margin-right: 129px;}
+#youngtab{width:1072px;margin-top: 40px;margin-left: 10px;}
+.youngtab_tit{padding-top: 60px;margin-left: 20px;}
+.youngtab_tit a{width: 86px;line-height: 37px;font-size: 14px;font-family: 宋体;text-align:center;color: #555555;display:block;background:url(../images/wind_tit_03.png) 0 0 no-repeat;width: 115px;height: 37px;}
+.youngtab_t1{margin-left: 59px;}
+.youngtab_t2{margin-left: 81px;margin-top: 13px;}
+.youngtab_t3{margin-top: 13px;}
+.youngtab_inner{margin-top: 30px;margin-left: 4px;width:846px;}
+.youngtab_inner .show{display: block;}
+.youngtab_tit .select{background:url(../images/tabbg_03.png) 0px 0px no-repeat;width:115px;height: 37px;color: #231815;line-height: 37px;}
+.youngtab_con{width:846px;height: 258px;display: none;margin-top: 51px;margin-left: 8px;}
+.youngtab_con a{color: #fff;}
+.youngscr_out{width:869px;height: 258px;}
+.youngscr_inner{width:778px;height: 240px;margin-left: 53px;margin-top: -13px;}
+.youngscr_con{width: 778px;}
+.youngscr_gun{width: 783px;position: absolute;margin-left: 35px;}
+.youngscr_gun img{padding-right: 31px;padding-top: 10px;}
+.youngtab_con i{display: none;}
+.youngscr_img{width:261px;text-align: center;}
+.youngscr_img p{margin-left:-30px; }
+/*.xuxian{background:url(../images/yuan_xx.png) 0px 0px no-repeat;width: 209px;height: 256px;z-index: -1;}*/
+.youngscr_img img{padding-bottom: 16px}
+.z1{background:url(../images/yuan_xx.png) 8px 4px no-repeat;width: 205px;height: 200px;padding:10px;}
+/*.z2{background:url(../images/z2.png) 8px 4px no-repeat;width: 205px;height: 200px;padding:10px;}
+.z3{background:url(../images/z3.png) 8px 4px no-repeat;width: 205px;height: 200px;padding:10px;margin-left: -3px;}*/
+.youngscr_img .z1:hover{background: url(../images/yellow.png) 7px 0px no-repeat;width: 209px;height: 200px;padding: 10px;}
+/*.youngscr_img .z2:hover{background: url(../images/yellow.png) 2px -2px no-repeat;width: 209px;height: 200px;padding: 10px;}
+.youngscr_img .z3:hover{background: url(../images/yellow.png) 6px -2px no-repeat;width: 209px;height: 200px;padding: 10px;}*/
+.young_btn1{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;left:26px;top: 90px;cursor: pointer;}
+.young_btn2{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;right: -20px;top: 90px;cursor: pointer;}
+/*校园风貌*/
+.scenery{padding-top: 138px;padding-left: 2px;padding-bottom: 90px;}
+.scenery_bt{margin-left: 17px;}
+.scenerytab_inner{margin-top: 30px;margin-left: 4px;width:846px;}
+.scenerytab_tit .select{background:url(../images/tabbg_03.png) 0px 0px no-repeat;width:115px;height: 37px;color: #231815;line-height: 37px;}
+.sceneryscr_out{width:1037px;margin-top: 32px;height: 350px;}
+.sceneryscr_inner{width:868px;margin:0 auto;overflow:hidden;}
+.sceneryscr_con{width: 868px;}
+.sceneryscr_con span{display: none;}
+.youngscr_gun{width: 868px;position: absolute;}
+.sceneryscr_img{width:289px;text-align: center;color: #555555;}
+.sceneryscr_img img{width: 240px;border-style: solid;border-width: 10px;border-color:transparent;filter:chroma(color=transparent)}
+.sceneryscr_img p{margin-top: 15px;color: #fff;}
+.sceneryscr_img:hover img{border: 10px solid #e5e5e5;}  
+.scenery_btn1{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;left:20px;top: 60px;cursor: pointer;}
+.scenery_btn2{background:url(../images/btn_bg_03.png) 0 0 no-repeat;width: 29px;height: 60px;padding:20px 8px;right: 0px;top: 60px;cursor: pointer;}
+.scenery_btn1:hover{background:url(../images/btn_bg_05.png) 0 0 no-repeat;}
+.scenery_btn2:hover{background:url(../images/btn_bg_05.png) 0 0 no-repeat;}
+.sceneryscr_inner .show{display: block;}
+/*友情链接部分*/
+.foot1{padding-left: 40px;background:url(../images/foot_03.png) 32px 0px no-repeat;width: 1105px;height: 141px;}
+.foot1 ul{width: 900px;padding:33px 0px 0px 114px;}
+.foot1 li{float: left;padding: 4px 3px;}
+.foot1 a{color: #555555;font-size:12px;}
+.foot1 a:hover{color: #006135;}
+/*底部*/
+.foot2{background-color:#1d1d1d;width:100%;padding-top: 32px;}
+.foot_c1{border-bottom: 2px solid #000;padding-bottom: 15px;width: 1070px;}
+.foot_c1 li{width:115px;float: left;}
+.foot_c1 li a{float: left;font-size: 18px;font-family:微软雅黑;color: #fff;width: 115px;text-align: center;}
+.f2ml{margin-left: 108px;}
+.foot_c2 a{color: #fff;font-size: 14px;line-height: 27px}
+.foot_c2 {width: 116px;text-align: center;margin-top: 10px;}
+.foot3 img{margin-top: 50px;margin-left: 330px;}
+.dizhi{margin:0 auto; color: #fff;font-size: 14px;margin-top: 20px;width: 970px;padding-bottom: 40px;}
+.foot3 span{padding:0 2px;display: inline-block;}
+.boder{border: 1px solid #000;margin-top: 20px;}
+/*子页面诚雅少年部分*/
+.s_youngheadimg{background:url(../images/s_younghead_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.s_youngli2{background:url(../images/s_youngbt_05.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_young_con{background:url(../images/bejing_03.jpg) center top no-repeat;width: 100%;}
+.s_younginner{width:1012px;}
+.s_bgyoungcenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 960px;padding: 0 25px;}
+.s_bgtop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_bgbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+.s_younginner li{width: 473px;}
+.s_younginner li p{width: 244px;}
+.s_youngconimg img{ padding-left: 4px;padding-top: 3px;}
+.young_yuan{z-index: 2; background:url(../images/yuan1_03.png); width: 204px; height: 204px; left: 0; top: 0;}
+.s_youngl1{font-size: 18px;line-height: 30px;margin-bottom: 10px;}
+.s_youngl1 a{color:#10100E; }
+.s_youngl2{font-size: 12px;line-height: 20px;color: #81511c;}
+.s_youngl3{font-weight: bold;}
+.aaaa{width: 800px;height: 204px;}
+.s_youngl3 a{color: #ca1e1c;}
+.mrli{margin-bottom: 30px;padding-bottom: 20px;padding-right: 3px}
+/*教师风采子页面*/
+.s_teacherdt{background:url(../images/s_teacher1_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.s_teacherli2{background:url(../images/s_teacherbt_03.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+/*.teacherboder{border-top: 1px solid #D9BA8C;width: 941px;}*/
+.teacherboder1{border-bottom: 1px solid #D9BA8C;width: 941px;}
+/*学校动态子页面*/
+.s_newsdt{background:url(../images/s_newsdt_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.s_newsli2{background:url(../images/s_newsbt_03.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_newscenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 940px;padding: 0 35px;}
+.s_newstop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_newsbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+/*教学研讨子页面*/
+.teaing_con{background:url(../images/bejing_03.jpg) center top no-repeat;width: 100%;}
+#s_teachtab{background:url(../images/s_teabg_03.png) 0px 0px no-repeat;width:1117px;height: 1023px;}
+.s_teachtab_inner{width:1012px;}
+.s_teaconimg{width: 250px;height: 190px;padding: 5px;}
+.s_teabt1{font-size: 18px;color: #000;line-height: 50px;font-weight: bold;}
+.s_teabt1 a{color: #333333;}
+.s_teajieshi{font-size: 14px;color: #81511c;width: 608px;line-height: 22px;}
+.s_teaingcenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 940px;padding: 0 35px;}
+.s_teaingtop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_teaingbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 114px;}
+.s_teachtab_con li{float: left;margin-left: 0px;}
+.boder1{border-bottom: 1px solid #d9ba8c;}
+.s_teachtab_inner li a{background:url(../images/fang_03.png) 10px 12px no-repeat;width: 830px;line-height: 27px;padding-left: 25px;display: inline-block;font-size: 14px; font-family: 宋体;color: #555555;}
+.s_teachtab_inner li a:hover{color: #006135;}
+.tiaoye a{text-align: center;width: 22px;line-height: 22px;display:inline-block;margin-right: 5px;color: #333333;font-size: 15px;}
+.tiaoye .ty1{border: 1px solid #333333;font-size: 12px;}
+.tiaoye a:hover{color: red}
+.tiaoye .red{color: red;}
+.tiaoye{margin: 0 auto;clear: both;text-align: center;}
+/*教学研讨子页面详情*/
+.dingtu1{background:url(../images/teachinghead_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.teaings_con{background:url(../images/bejing_03.jpg) center no-repeat;width: 100%;}
+.gpsli1{font-size: 12px;color: #fff;background:url(../images/gps_06.png) 0 0 no-repeat;width: 600px;height: 30px;padding-left: 30px;margin:20px 0px 15px 0;}
+.gpsli1 a{color: #fff;}
+.gpsli2{background:url(../images/teaching_03.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_teachingtab_tit{padding-top: 25px;}
+.s_teachingtab_tit a{font-size: 14px;font-family: 宋体;text-align:center;color: #555555;display:block;background:url(../images/s_hui.png) -1px 5px no-repeat;width: 88px;line-height: 50px;}
+.s_teaingscenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 936px;padding: 0 35px;min-height:1400px; }
+.s_teaingstop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_teaingsbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+.s_teaingscenter{padding-left: 40px;}
+.s_teachingtab_tit .select{background:url(../images/titbg_03.png) -1px 5px no-repeat;width: 88px;line-height: 50px;}
+.s_teachingtab_tit a:hover{background:url(../images/titbg_03.png) -1px 5px no-repeat;width: 88px;line-height: 50px;}
+.s_teachingtab_con{width:1012px;}
+.s_teachingtab_con span{display: none;}
+.s_teachingtab_con .show{display: block;}
+.s_teaingbt1{font-size: 20px;color: #231815;line-height: 85px;}
+.s_teaingtime1{color: #626262;line-height: 40px;}
+.s_teaingtime1 i{color: #ea5413;}
+.s_teaingzhai1{font-size: 14px;width: 886px;background-color: #ede1c1;border-top: 1px solid #c9c9c9;line-height: 25px;padding: 26px 24px;}
+.s_teaingzhai1 i{font-weight: bold;}
+.s_teaingimg1{margin-top: 39px;}
+.s_teaingimgw1{color: #808080;line-height: 32px;}
+.s_teaingw1{color: #231815;font-size: 14px;line-height: 25px;margin-top: 15px;width: 940px}
+/*教育之窗子页面*/
+.wind_con{background:url(../images/bejing_03.jpg) center top no-repeat;width: 100%;}
+.s_windli2{background:url(../images/s_windbt_03.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_wintabinner{width:1012px;}
+.swinding1{width:195px;height: 195px;}
+.s_windcenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 940px;padding: 0 35px;}
+.s_windtop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_windbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+#s_windtab .s_wintabinner li{width: 204px; margin:20px 15px;}
+#s_windtab .s_wintabinner li i{color: #231815;text-align: center;line-height: 20px;margin-top: 23px;    width: 130px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+.img{ width: 204px; height: 204px; position: relative; }
+.img img{ position: relative; z-index: 0;width:195px;height: 195px; padding-top: 4px;}
+.img .img1{z-index: 2; background:url(../images/yuan1_03.png); width: 204px; height: 204px; left: 0; top: 0;}
+.teacherboder{border: 1px solid #D6BA8B;width: 950px;margin: 0 auto;height: 0px;}
+/*联系我们子页面*/
+.s_lianxidt{background:url(../images/s_lianxidt_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.s_lianxi_conbg{background:url(../images/bejing_03.jpg) center top no-repeat;width: 100%;}
+.s_lianxili2{background:url(../images/s_lianxibt_03.png) 0 0 no-repeat;width: 119px;height: 29px;}
+.s_lianxicenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 940px;padding:0 35px;}
+.s_lianxicenter p{font-family: 宋体;font-size: 14px;color: #81511c;font-weight: bold;line-height: 30px;}
+.s_lianxitop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_lianxibottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+.s_lianxiimg1{background: url(../images/s_lainxiimg_05.png) 0 0 no-repeat;width: 389px;height: 64px;}
+.s_lianxiimg2{background: url(../images/s_lainxiimg_08.png) 0 0 no-repeat;width: 270px;height: 54px;}
+.s_map{margin-top:40px;}
+/*网站地图子页面*/
+.s_mapimg1 {background: url(../images/aaaa_03.png) 0 0 no-repeat;width: 389px;height: 64px;margin-left: 40px;}
+.s_map_conbg{background:url(../images/mapbg_02.jpg) center top no-repeat;width: 100%;}
+.s_mapa{margin: 0 auto;width: 428px;margin-top: 30px;}
+.s_mapcenter{background:url(../images/s_bg06.png) 0px 50px repeat-y;width: 1020px;}
+.s_maptop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_mapbottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 119px;}
+.s_fang1{background:url(../images/fang_03.png) 0 7px no-repeat;width: 438px;height: 20px;padding-left: 20px;height: 28px;}
+.s_fang1 a{width: 86px;display: inline-block;color: #81511c;font-size: 14px;text-align: center;}
+.s_fang1 a:hover{color:#006135; }
+.s_mapa .fwi{font-weight: bold;}
+.s_mapcenter ul.ovh{border-bottom: 1px solid #D9BA8C;width: 900px;padding-bottom: 30px;margin: 0 auto;}
+/*学校概况子页面*/
+.s_schprodt{background:url(../images/s_school_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.s_schproli2{background:url(../images/topimg_05.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_schprocenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 940px;padding: 0 35px;}
+.s_schprotop{background:url(../images/s_bg05.png) 0px 0px no-repeat;width: 1020px;height: 38px;}
+.s_schprobottom{background:url(../images/s_bg07.png) 0px 0px no-repeat;width: 1020px;height: 104px;}
+.s_schprocenter li img{border: 7px solid #fff;}
+.s_schproul li{padding: 15px 0;width:468px; }
+.boder2{border-bottom: 1px solid #d8ba8c;}
+/*学校概况学校简介子页面*/
+.s_schpro2_conbg{background:url(../images/bejing_03.jpg) center top no-repeat;width: 100%;}
+.s_schpro2center{background:url(../images/s_bg06.png) 0px 0px repeat-y;width:940px;padding: 0 35px;}
+.s_schpro2center img{margin-top: 30px;padding-bottom: 20px;}
+.s_schpro2wz{width:518px;font-size: 14px;line-height:25px;margin-top: 30px;padding-bottom: 20px;color:#81511c; }
+.dizhi1{font-weight: bold;color: #81511c;margin-top: 20px;font-size: 14px;line-height: 35px;}
+.s_jianjieimg1{background: url(../images/jianjie_03.png) 0 0 no-repeat;width: 401px;height: 54px;}
+/*校容校貌*/
+.s_scenerycenter{background:url(../images/s_bg06.png) 0px 0px repeat-y;width: 942px;padding: 0 35px;}
+.s_scenerya{border-bottom: 1px solid #d9ba8c;padding-bottom: 25px;margin-bottom: 34px;}
+.s_scenerya ul{width: 210px;text-align: center;}
+.s_scenerya ul li{margin-top: 20px;}
+.s_scenerya ul li a{color: #231815;}
+/*招聘*/
+.recrdt{background:url(../images/recruit_02.jpg) center no-repeat;width: 100%;height: 240px;}
+.recruitli2{background:url(../images/recruit_05.png) 0 0 no-repeat;width: 119px;height: 29px;margin:10px 30px 15px 0;}
+.s_recruitimg1{background: url(../images/recruit_09.png) 0 0 no-repeat;width: 389px;height: 64px;margin-left: 40px;}
+.recruit1con{font-size: 14px;color: #81511c;line-height: 29px;width:938px;margin-top: 25px;border-bottom: 1px solid #81511c;padding-bottom: 15px;}
+.recrform1{margin-top: 20px;width: 900px;margin: 0 auto;line-height: 30px;}
+.form1{margin: 0 auto;display: block;}
+.zhuyi{font-size:14px;color: #006135; }
+.zhuyi span{color: #ff0000;}
+.recrform1 p{width: 83px;display: inline-block;text-align: left;font-size: 14px;font-family: 宋体;}
+.recrform1 p span{color:#ff0000;padding: 0 3px;}
+.recrform1 input{display: inline-block;height: 32px;margin-right: 20px;margin-top: 20px;line-height: 32px;color: #333333;font-size:14px;}
+.recrform1 textarea{line-height: 32px;color: #333333;font-size:14px;}
+.name,.school1,.iphone{width: 442px;}
+.six{margin-top: 10px;display:inline-block;position: relative;top: 12px;margin-left: 5px;}
+.zhuanye,.year{width: 192px;}
+.yan{width: 120px;}
+.btn_a,.btn_b{width: 89px;background-color: #808080;line-height: 30px;text-align: center;font-family: 宋体;font-size: 14px;cursor: pointer;margin-top: 20px;color: #fff;}
+.btn_b{margin-right: 50px;}
+.btn_a{margin-right: 20px;}
+.btn_a:hover{background-color: #006135;}
+.btn_b:hover{background-color: #006135;}
+/*招生*/
+.s_recruit2img1{background: url(../images/recrrit_bt1_03.png) 0 0 no-repeat;width: 499px;height: 64px;margin-left: 40px;}
+.recu2bt{font-size:14px;font-weight: bold;color:#81511c;margin-left:50px;margin-top: 20px;}
+.name1,.iphone1{width: 153px;}
+.age{width: 92px;margin-right: 50px;}
+.mlclass{margin-left: 62px;}
+.like{width: 466px;}
+/*招聘信息*/
+.s_recruit3img1{ background: url(../images/recruit3_03.png) 0 0 no-repeat;width: 499px;height: 64px;margin-left: 40px;margin-top: 0px;}
+.recruit3_p1{width: 520px;margin-top: 20px;font-size:14px;color: #81511c;line-height: 30px;border-bottom: 1px solid  #d9bb8d;padding-bottom: 20px;}
+.zhiwei{width: 520px;margin-top: 30px;}
+.zhiwei a{background:url(../images/sanjiao_03.png) 0 10px no-repeat;width:85px;padding-left: 15px;height: 30px;display: inline-block;line-height: 33px;font-size: 14px;font-family: 宋体;font-weight: bold;color:#342f2b; }
+.zhiwei a:hover{color:#006135; }
+/*右侧浮动栏*/
+#right_bar{width: 100px;height: 370px;position: fixed;top: 20em;right: 0em;background: url(../images/right_bar.png) center 0 no-repeat;}
+#right_bar a,#right_bar span{display: block;height: 78px;cursor: pointer;}
